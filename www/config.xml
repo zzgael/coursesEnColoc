@@ -66,5 +66,5 @@
     <splash src="resources/ios/splash/Default~iphone.png" gap:platform="ios" width="320" height="480"/>
   </platform>
   <icon src="resources/icon.png"/>
-  <gap:splash src="resources/splash.png" />
+  <splash src="resources/splash.png" />
 </widget>
