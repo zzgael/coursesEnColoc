@@ -4,3 +4,9 @@
 node_modules/
 platforms/
 plugins/
+hooks/
+scss/
+bower.json
+gulpfile.js
+ionic.project
+package.json
