@@ -24,7 +24,7 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-<platform
+
     <icon src="res/icon/android/drawable-ldpi-icon.png" gap:platform="android" gap:qualifier="ldpi"/>
     <icon src="res/icon/android/drawable-mdpi-icon.png" gap:platform="android" gap:qualifier="mdpi"/>
     <icon src="res/icon/android/drawable-hdpi-icon.png" gap:platform="android" gap:qualifier="hdpi"/>
