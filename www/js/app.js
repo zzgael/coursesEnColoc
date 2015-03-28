@@ -5,7 +5,7 @@ var app = angular.module('Shopencoloc',
 
     //Push notification - initialize device id 
     $ionicPlatform.ready(function () {
-      PushService.getDeviceId();
+      alert(PushService.getDeviceId());
     });
 
     $rootScope.$on("$locationChangeStart", function (event, next, current) {

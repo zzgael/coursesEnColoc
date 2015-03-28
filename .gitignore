@@ -13,5 +13,5 @@ bower.json
 gulpfile.js
 ionic.project
 package.json
-config.xml
-resources
+resources/
+/config.xml
