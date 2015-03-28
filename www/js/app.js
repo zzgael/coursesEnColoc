@@ -1,83 +1,187 @@
-// Ionic Starter App
+var app = angular.module('Shopencoloc', 
+  ['ionic', 'Shopencoloc.services', 'Shopencoloc.controllers','jmdobry.angular-cache', 'ngCordova'])
+.run(function ($q, $http, $rootScope, $location, Logger, config, $ionicPlatform, $ionicPopup, $ionicLoading, $ionicSideMenuDelegate, $ionicScrollDelegate, $window, $timeout, PushService) {
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-// 'starter.services' is found in services.js
-// 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
-.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-    // for form inputs)
-    if (window.cordova && window.cordova.plugins.Keyboard) {
-      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+    //Push notification - initialize device id 
+    $ionicPlatform.ready(function () {
+      PushService.getDeviceId();
+    });
+
+    $rootScope.$on("$locationChangeStart", function (event, next, current) {
+        $rootScope.error = null;
+        Logger.log("Route change!!!", $location.path());
+        var path = $location.path();
+        
+//        if(!$ionicSideMenuDelegate.isOpen()){
+//        	$timeout(function(){
+//        		$ionicSideMenuDelegate.toggleLeft();
+//        	},1000);
+//        }
+    });
+
+    $rootScope.goTo = function(page, hideMenu) {
+        Logger.log('Going to ' + page);
+        if(hideMenu){
+          $ionicSideMenuDelegate.toggleLeft();
+        }else{
+          
+        }
+        $timeout(function(){
+          $ionicScrollDelegate.scrollTop(false);
+      },1000);
+        $location.url('/'+config.appName+'/' + page);
+    };
+
+    $rootScope.toggleLeft = function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+        $ionicSideMenuDelegate.toggleLeft();
+    };
+    
+    Logger.log("App Loaded!!!");
+    
+    $window.alert = function(message){
+    	$ionicPopup.alert({
+        title: 'Ionic builder',
+        content: message
+      }).then(function() {
+    	  
+      });
+    };
+
+    $rootScope.isDesktop = typeof cordova === "undefined";
+    if($rootScope.isDesktop){
+    	Logger = console;
     }
-    if (window.StatusBar) {
-      // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
-    }
-  });
+    
+    var convertAjaxParams = function(obj) {
+        var query = '', name, value, fullSubName, subName, subValue, innerObj, i;
+          
+        for(name in obj) {
+          value = obj[name];
+            
+          if(value instanceof Array) {
+            for(i=0; i<value.length; ++i) {
+              subValue = value[i];
+              fullSubName = name + '[' + i + ']';
+              innerObj = {};
+              innerObj[fullSubName] = subValue;
+              query += convertAjaxParams(innerObj) + '&';
+            }
+          }
+          else if(value instanceof Object) {
+            for(subName in value) {
+              subValue = value[subName];
+              fullSubName = name + '[' + subName + ']';
+              innerObj = {};
+              innerObj[fullSubName] = subValue;
+              query += convertAjaxParams(innerObj) + '&';
+            }
+          }
+          else if(value !== undefined && value !== null)
+            query += encodeURIComponent(name) + '=' + encodeURIComponent(value) + '&';
+        }
+          
+        return query.length ? query.substr(0, query.length - 1) : query;
+      };
+
+    $rootScope.triggerAjax = function(url, query, isPost, cache) {
+    	var deferred = $q.defer(),
+        start = new Date().getTime();
+    	
+    	if(!query){
+    		query = {};
+    	}
+    	query["xhr"] = 1;
+    	query["isApp"] = 1;
+    	query["isAjax"] = true;
+    	query["withCredentials"] = true;
+    	query["r"] = Math.random();
+    	
+    	var random = Math.floor(Math.random() * (1000));
+    	var successMethodName = "successMethod" + random;
+    	$window[successMethodName] = function(resp){
+    		Logger.log("Time taken for " + url + ": " + ((new Date().getTime()) - start));
+			if(resp.isSuccess){
+    			deferred.resolve(resp);
+			}else{
+				failedMethod(resp);
+			}
+			   
+        };
+        var failedMethod = function(err){
+        	if(err && !err.isSuccess && err.redirectToLogin){
+        		$location.path('/signout');
+			   }else{
+		        	/*$ionicPopup.alert({
+			            title: 'Shopencoloc',
+			            content: (err.errMsg || config.applicationErrorMsg)
+			          }).then(function() {
+			        	  
+			          });*/
+			   }
+        	deferred.reject(err);
+        };
+        if(config.ctx === "http://yourserver.com/"){
+        	$ionicPopup.alert({
+	            title: 'Your app!!!',
+	            content: ("Please configure your server url in config.js")
+	          }).then(function() {
+	        	  deferred.resolve({"msg" : "Please configure your server url in config.js"});
+	          });
+        	return deferred.promise;
+        }
+        if(isPost){
+			$http({
+				method : 'POST',
+				data : query,
+				url : config.ctx + url,
+				cache : cache,
+				headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+				//This is for converting post params
+				transformRequest : [function(data) {
+			        return angular.isObject(data) && String(data) !== '[object File]' ? convertAjaxParams(data) : data;
+			      }]
+			}).success($window[successMethodName]).error(failedMethod);
+        }else{
+        	var httpType = "GET";
+        	var finalUrl = (config.ctx + url);
+        	if($rootScope.isDesktop){
+        		query["callback"] = successMethodName;
+        		httpType = "jsonp";
+        	};
+        	 
+        	$http({
+        	    url: finalUrl, 
+        	    method: httpType,
+        	    params: query,
+        	    cache : cache,
+        	 }).success($window[successMethodName]).error(failedMethod);
+        }
+		
+        return deferred.promise;
+ 	 };
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
 
-  // Ionic uses AngularUI Router which uses the concept of states
-  // Learn more here: https://github.com/angular-ui/ui-router
-  // Set up the various states which the app can be in.
-  // Each state's controller can be found in controllers.js
-  $stateProvider
-
-  // setup an abstract state for the tabs directive
-    .state('tab', {
-    url: "/tab",
-    abstract: true,
-    templateUrl: "templates/tabs.html"
-  })
-
-  // Each tab has its own nav history stack:
-
-  .state('tab.dash', {
-    url: '/dash',
-    views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
-      }
-    }
-  })
-
-  .state('tab.courses', {
-      url: '/courses',
-      views: {
-        'tab-courses': {
-          templateUrl: 'templates/tab-courses.html',
-          controller: 'CoursesCtrl'
-        }
-      }
-    })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
-        }
-      }
-    })
-
-  .state('tab.account', {
-    url: '/account',
-    views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
-      }
-    }
-  });
-
-  // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  
 
 });
+app.provider({
+$exceptionHandler: function(){
+    var handler = function(exception, cause) {
+        console.log(exception.message, cause);
+    	   alert(exception);
+        //I need rootScope here
+    };
+
+    this.$get = function() {
+        return handler;
+    };
+}
+});
+
+var controllers = angular.module('Shopencoloc.controllers', []);
+var services = angular.module('Shopencoloc.services', ['ngResource']);

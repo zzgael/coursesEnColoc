@@ -6,8 +6,12 @@ platforms/
 plugins/
 hooks/
 scss/
+www_old/
+www/www.zip
 bower.json
 .bowerrc
 gulpfile.js
 ionic.project
 package.json
+config.xml
+resources
