@@ -1,0 +1,1448 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"course",
+				"courses"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"list",
+				"lists"
+			],
+			[
+				"vill",
+				"villes"
+			],
+			[
+				"autoco",
+				"autocompletion"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"auto",
+				"autocompleteData"
+			],
+			[
+				"codePo",
+				"codePostaux"
+			],
+			[
+				"colm",
+				"columnsKeys"
+			],
+			[
+				"cl",
+				"columns"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"app",
+				"appsByNom"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"strs",
+				"strstr"
+			],
+			[
+				"entre",
+				"entreesCalendrier"
+			],
+			[
+				"date",
+				"dateArrivee"
+			],
+			[
+				"array_fil",
+				"array_filter"
+			],
+			[
+				"DMS",
+				"DMSparts"
+			],
+			[
+				"lat",
+				"latLng"
+			],
+			[
+				"capaci",
+				"capaciteTotaleSalle"
+			],
+			[
+				"valid",
+				"validate"
+			],
+			[
+				"font-",
+				"font-size: "
+			],
+			[
+				"se",
+				"selectionRetenue"
+			],
+			[
+				"font",
+				"font-family: "
+			],
+			[
+				"ty",
+				"type	$.type()"
+			],
+			[
+				"trans",
+				"transition: "
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"scroll",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"sele",
+				"Selection"
+			],
+			[
+				"briefs",
+				"briefsActifs"
+			],
+			[
+				"brie",
+				"briefsActifs"
+			],
+			[
+				"selectio",
+				"selectionsRecues"
+			],
+			[
+				"wh",
+				"which"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"un",
+				"uneLigne"
+			],
+			[
+				"backgr",
+				"background-position: "
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background-repeat: "
+			],
+			[
+				"header",
+				"headerURL"
+			],
+			[
+				"status",
+				"status_icon"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"type",
+				"typeLieux"
+			],
+			[
+				"typeLi",
+				"type-lieu"
+			],
+			[
+				"id",
+				"idEtablissement"
+			],
+			[
+				"repe",
+				"repetition_mot_de_passe"
+			],
+			[
+				"repeat",
+				"repeat_password"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"mai",
+				"mailgun"
+			],
+			[
+				"achemi",
+				"acheminement"
+			],
+			[
+				"typeLieu",
+				"typesLieuxComp"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"new",
+				"newBloc"
+			],
+			[
+				"erreur",
+				"erreurPoids"
+			],
+			[
+				"photo",
+				"photoASuppr"
+			],
+			[
+				"_SERV",
+				"_SERVER  (variable)"
+			],
+			[
+				"show",
+				"showBookLoading"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ionic",
+				"Snippet: ion-js-$ionicSideMenuDelegate-ng"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ang",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"angu",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"brr",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"beo",
+				"SFTP: Browse Remote…"
+			],
+			[
+				" bro",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"edi",
+				"SFTP: Edit Server…"
+			],
+			[
+				"BRO",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"bor",
+				"SFTP: Browse Server…"
+			],
+			[
+				"setu",
+				"SFTP: Setup Server…"
+			],
+			[
+				"sni",
+				"Snippet: Route-mergeWithLastGroup"
+			],
+			[
+				"sni ",
+				"Snippet: Input-cookie"
+			],
+			[
+				"snipp",
+				"Snippet: COOKIE['…']"
+			],
+			[
+				"laral",
+				"Laravel Facade: App"
+			],
+			[
+				"lara",
+				"Laravel Facade: DB"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sho",
+				"SFTP: Show Panel"
+			],
+			[
+				"edit",
+				"SFTP: Edit Server…"
+			],
+			[
+				"br",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"can",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"bindi",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"remo",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"syntax bl",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"set syntax bl",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"set syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syntax bla",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"set syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rmeove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"go to matching ",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"go to ",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"panel",
+				"SFTP: Show Panel"
+			],
+			[
+				"gre",
+				"Snippet: grayscale()"
+			],
+			[
+				"gray",
+				"Snippet: grayscale()"
+			],
+			[
+				"file",
+				"Filezilla Import: Import Server"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"show",
+				"SFTP: Show Panel"
+			],
+			[
+				"sftp p",
+				"SFTP: Show Panel"
+			],
+			[
+				"sass",
+				"Snippet: font-emphasize-style"
+			],
+			[
+				"set syntax s",
+				"Set Syntax: Sass"
+			],
+			[
+				"",
+				"Closure Linter: Fix JavaScript Style"
+			],
+			[
+				"show ",
+				"SFTP: Show Panel"
+			],
+			[
+				"filel",
+				"Filezilla Import: Import Server"
+			],
+			[
+				"sf",
+				"SFTP: Setup Server…"
+			],
+			[
+				"fille",
+				"Filezilla Import: Import Server"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"brows",
+				"SFTP: Browse Server…"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"sfto",
+				"SFTP: Map to Remote…"
+			],
+			[
+				"sfp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"s",
+				"SFTP: Browse Server…"
+			],
+			[
+				"filezil",
+				"Filezilla Import: Import Server"
+			],
+			[
+				"filez",
+				"Filezilla Import: Import Server"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"filezill",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"filezi",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"filezilla",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 379.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Courses en Coloc/coursesEnColoc/www"
+	],
+	"file_history":
+	[
+		"/D/Courses en Coloc/coursesEnColoc/www/js/app.js",
+		"//GAEL-FIXE/Boulot/Sites/allodriver/allodriver/www/wp-includes/theme-compat/header.php",
+		"//GAEL-FIXE/Boulot/Sites/allodriver/allodriver/www/wp-content/themes/twentyfourteen/header.php",
+		"//GAEL-FIXE/Boulot/Sites/allodriver/allodriver/www/wp-includes/js/heartbeat.js",
+		"//GAEL-FIXE/Boulot/Sites/allodriver/allodriver/phplib/lib/SwiftMailer/classes/Swift/Mime/HeaderEncoder.php",
+		"//GAEL-FIXE/Boulot/Sites/allodriver/allodriver/www/wp-includes/http.php",
+		"/D/Courses en Coloc/coursesEnColoc/.gitignore",
+		"/D/Courses en Coloc/coursesEnColoc/www/js/ng-cordova.js",
+		"/D/Courses en Coloc/coursesEnColoc/www/templates/side.html",
+		"/D/Courses en Coloc/coursesEnColoc/www_old/js/controllers.js",
+		"/D/Courses en Coloc/coursesEnColoc/www/templates/profile.html",
+		"/D/Courses en Coloc/coursesEnColoc/www/js/controllers/profile.js",
+		"/D/Courses en Coloc/coursesEnColoc/www/js/controllers/index.js",
+		"/D/Courses en Coloc/coursesEnColoc/www_old/templates/tab-account.html",
+		"/D/Courses en Coloc/coursesEnColoc/www_old/lib/ionic/js/ionic.bundle.js",
+		"/D/Courses en Coloc/coursesEnColoc/www/lib/js/ionic.bundle.js",
+		"/D/Courses en Coloc/coursesEnColoc/www/js/services/profile.js",
+		"/D/Courses en Coloc/coursesEnColoc/www/js/config.js",
+		"/D/Courses en Coloc/coursesEnColoc/www/js/services/courses.js",
+		"/D/Courses en Coloc/coursesEnColoc/www/index.html",
+		"/D/Courses en Coloc/coursesEnColoc/www/js/services/services.js",
+		"/D/Courses en Coloc/coursesEnColoc/www_old/index.html",
+		"/D/Courses en Coloc/coursesEnColoc/www_old/js/services.js",
+		"/D/Courses en Coloc/coursesEnColoc/www_old/js/app.js",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426125995/coursesencoloc/colocadmin/app/Http/Controllers/CourseController.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426135973/coursesencoloc/colocadmin/app/Http/Kernel.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426129612/coursesencoloc/public_html/.htaccess",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426126483/coursesencoloc/colocadmin/app/Course.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426126116/coursesencoloc/colocadmin/app/Http/routes.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426126767/fgtechs/www/.htaccess",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426126736/fgtechs/.htaccess",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426125246/coursesencoloc/colocadmin/config/app.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426125630/coursesencoloc/colocadmin/app/Course.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426125505/coursesencoloc/colocadmin/database/migrations/2015_03_12_025539_create_courses_table.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426124771/coursesencoloc/public_html/index.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426124756/coursesencoloc/public_html/.htaccess",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426124340/coursesencoloc/colocadmin/bootstrap/app.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426124111/coursesencoloc/colocadmin/config/app.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426124365/coursesencoloc/colocadmin/.env",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426124446/coursesencoloc/colocadmin/bootstrap/autoload.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426124434/coursesencoloc/colocadmin/.env.example",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1426124283/coursesencoloc/colocadmin/config/database.php",
+		"/C/Users/G/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/coursesencoloc",
+		"/C/Users/G/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/annuairefranceweb",
+		"/D/Courses en Coloc/coursesEnColoc/www/templates/tabs.html",
+		"/D/Courses en Coloc/coursesEnColoc/www/templates/tab-dash.html",
+		"/D/Courses en Coloc/coursesEnColoc/scss/ionic.app.scss",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424943580/girardin/public_html/fuel/themes/warehouse/js/index.js",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1425305108/girardin/public_html/fuel/controllers/front/IndexController.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1425309453/girardin/public_html/fuel/themes/warehouse/js/jquery.autocomplete.css",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424943500/girardin/public_html/fuel/modules/shopform/js/contentbox.js",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424941787/girardin/public_html/fuel/modules/homefeatured_mod/homefeatured_mod.tpl",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424943368/girardin/public_html/fuel/themes/warehouse/modules/shopform/translations/fr.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424942900/girardin/public_html/fuel/themes/warehouse/product-slider.tpl",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424943326/girardin/public_html/fuel/modules/shopform/views/templates/front/template.tpl",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424941300/girardin/public_html/fuel/modules/homefeatured/views/templates/index.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424940980/girardin/public_html/fuel/modules/homefeatured/views/templates/hook/homefeatured.tpl",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424941280/girardin/public_html/fuel/modules/homefeatured/views/templates/hook/index.php",
+		"/C/users/g/appdata/local/temp/sublime-sftp-browse-1424941256/girardin/public_html/fuel/modules/homefeatured/views/templates/hook/tab.tpl",
+		"/C/Users/G/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/girardin",
+		"/D/Girardin/girardin.json",
+		"//Colocberry/pihome/opencv/test.py",
+		"//Colocberry/pihome/opencv/instant_face_detect.py",
+		"//Colocberry/pihome/opencv/webcam.py",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/workbench/idmkr/compte/routes.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/workbench/idmkr/compte/themes/frontend/default/packages/idmkr/compte/views/connexion.blade.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/app/start/global.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/workbench/platform/users/extension.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/app/storage/logs/laravel.log",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/workbench/idmkr/compte/src/Controllers/Frontend/ConnexionController",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/workbench/idmkr/compte/src/Controllers/Frontend/CompteController.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/workbench/idmkr/compte/extension.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/app/config/app.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/workbench/platform/admin/src/Controllers/Admin/AdminController.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/workbench/idmkr/placeo/themes/admin/fgk/packages/idmkr/placeo/views/home.blade.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/app/config/platform.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/placeapp/phpunit.xml",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/fgk/extensions/platform/menus/views/manage.blade.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/fgk/extensions/platform/menus/views/index.blade.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/public_html/themes/frontend/placeo/extensions/platform/users/views/auth/login.blade.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/public_html/themes/frontend/placeo/extensions/idmkr/placeo/views/pages/inscription/inscription-step-1.blade.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/public_html/themes/frontend/default/views/layouts/default.blade.php",
+		"//GAEL-FIXE/Boulot/Sites/placeopro/placeopro/sftp-config.json",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/workbench/idmkr/placeo/themes/frontend/placeo/packages/idmkr/placeo/views/pages/inscription/inscription-step-1.blade.php",
+		"/D/Boulot/Sites/parenhese-mkr/pmkr-veto.dev/public_html/app/config/database.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/fgk/extensions/platform/admin/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/workbench/idmkr/placeo/themes/frontend/placeo/packages/idmkr/placeo/views/pages/inscription/inscription-step-2.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/cache/assets/admin.default.scripts.0e986b9075df0e7d70880a801b03bd53_1406546692.js",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/frontend/placeo/extensions/idmkr/placeo/views/pages/inscription/inscription-step-2.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/frontend/placeo/extensions/idmkr/placeo/views/inscription-step-1.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/frontend/placeo/extensions/idmkr/placeo/views/inscription-step-1.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/cache/assets/admin.default.scripts.239f1dea6093e33f24a67c1b43d237e3_1406546692.js",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/vendor/phpunit/php-token-stream/Tests/_files/classInScopedNamespace.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/vendor/phpunit/phpunit/src/Framework/Constraint/IsNull.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/index.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/frontend/placeo/extensions/idmkr/placeo/views/pages/inscription/inscription-step-1.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/frontend/placeo/extensions/idmkr/placeo/views/layouts/nav.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/extensions/platform/admin/themes/admin/fgk/packages/platform/admin/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/fgk/extensions/platform/attributes/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/default/extensions/platform/settings/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/default/extensions/platform/pages/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/default/extensions/platform/menus/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/default/extensions/platform/media/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/default/extensions/platform/content/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/default/extensions/platform/attributes/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/themes/admin/default/extensions/platform/admin/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/vendor/cartalyst/sentinel-social/src/views/oauth/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithAtInDescriptionAndAnnotation.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/extensions/platform/admin/themes/admin/default/packages/platform/admin/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/public/themes/admin/default/extensions/platform/admin/views/index.blade.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/vendor/cartalyst/workshop/src/Generators/FormGenerator.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/FileBagTest.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/vendor/phpunit/phpunit/src/Framework/Constraint/GreaterThan.php",
+		"/D/Boulot/Sites/placeopro/placeopro/placeapp/app/overrides.php",
+		"/D/Boulot/Sites/placeopro/placeopro/sftp-config.json",
+		"/D/Boulot/Sites/placeopro/placeopro/sftp-config-alt.json",
+		"/C/Users/Gael/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/Dedié Parenthese",
+		"/D/Boulot/Sites/placeopro/placeopro/public_html/sftp-config.json",
+		"/D/Boulot/Sites/placeopro/public_html/sftp-config.json",
+		"/C/Users/Gael/Desktop/extension.php",
+		"/C/Users/Gael/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/Milan CIP",
+		"/C/users/gael/appdata/local/temp/sublime-sftp-browse-1415279695/Milan CIP/wp-content/themes/cip-bones/single-programme.php",
+		"/C/users/gael/appdata/local/temp/sublime-sftp-browse-1415281607/Milan CIP/wp-content/themes/cip-bones/single.php",
+		"/D/Boulot/Sites/fg admin/fg-admin/sftp-config.json",
+		"/C/Users/Gael/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/fgtechs",
+		"/D/Boulot/Sites/fg admin/fg-admin/application/tools/Editor.php",
+		"/D/Boulot/Sites/Lilian/fb-imc/ActiveRecord/ActiveRecord.php",
+		"/D/Boulot/Sites/Lilian/fb-imc/fg-admin/core/Bootstrap.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\Courses en Coloc\\coursesEnColoc\\www",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\views",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\controllers",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\views\\frontend",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\controllers",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\views\\frontend",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\views",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\views\\frontend",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\controllers\\",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\controllers\\BaseController.php",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\controllers\\",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\controllers\\ActuController.php",
+			"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\models\\",
+			"C:\\Boulot\\Sites\\event boutik\\event-boutik\\httpdocs\\images",
+			"C:\\Boulot\\Sites\\allodriver\\allodriver\\www\\wp-content\\themes\\allodriver-bones"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"replace_with_sender_id",
+			"$http",
+			"$q",
+			"toggleleft",
+			", 'ngCordova'",
+			"zzgael",
+			"add",
+			"set",
+			"../",
+			"in lists",
+			"$.fn.",
+			"toggle",
+			"$blocsPrix",
+			"toggleCommande",
+			"log",
+			"class",
+			"codePostal",
+			"getVilleFrom",
+			"codePostal",
+			"getCodePostal",
+			"cp",
+			"cap",
+			"self.capture",
+			"cv2",
+			"cam",
+			"panel-head",
+			"layouts",
+			"entrees",
+			"['page']",
+			"Nom",
+			"nom",
+			"helve",
+			"florentroche66@gmail.com",
+			"^\\n",
+			"database",
+			"Users",
+			"Calendrier",
+			"calendrier",
+			"Calendrier",
+			"$e['statut']",
+			"Input::get('recherche')",
+			"i>",
+			"i",
+			"b>",
+			"dev/",
+			"dev",
+			"dev/",
+			"dev",
+			"points",
+			"+',france'",
+			"cgu",
+			"p",
+			"mentions-legales",
+			"cgu",
+			"$return",
+			"return",
+			"nbJoursRestants",
+			"$e",
+			"'recues'",
+			"dev/",
+			"dev",
+			"@extends('/dev/",
+			"Redirect::to('frontend/",
+			"href=([\"'])\\/dev",
+			"href=[\"']\\/dev",
+			"href=[\"']_/dev",
+			"Request::is('dev/",
+			"dev",
+			"@include('/dev",
+			"@extends('/dev/layout')",
+			"dev/",
+			"View::make('dev/",
+			"Redirect::to('dev/",
+			"dev/",
+			"View::make('dev/",
+			"dev/",
+			"$e",
+			"$latLng",
+			"parts",
+			"validate",
+			"Calendrier",
+			"Briefs",
+			"Calendrier",
+			"});\n",
+			"ctrl+shift+r",
+			"#",
+			"$a['dateEvenement']",
+			"titre",
+			"$a",
+			"link",
+			"actu",
+			"titre",
+			"actu",
+			"Actu",
+			"Actus",
+			"imgInputName",
+			"$a",
+			"suivi",
+			"past",
+			"pt-rose",
+			"actualites",
+			"id",
+			"acheminement",
+			"deposerDevis",
+			"();\n",
+			"i",
+			"'../backup/",
+			".'.date('d-m-Y').'",
+			"app",
+			"<a href=\"/dev/mon-espace/supprimer-brief/\" class=\"trash\"></a>",
+			">\n",
+			"clickState",
+			">\n",
+			"brief",
+			"devis",
+			"ins",
+			"service",
+			"with(",
+			"b",
+			"getbrief",
+			"4x",
+			"</div>",
+			"<div class='status'>",
+			"span",
+			"$Etab = $Etab",
+			"\"",
+			"\")",
+			"').find(\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"@extends('/frontend/",
+			"Redirect::to('",
+			"href=$1",
+			"Request::is('",
+			"@include('/frontend",
+			"@extends('/frontend/layout')",
+			"View::make('frontend/",
+			"Redirect::to('frontend/",
+			"View::make('frontend/",
+			"frontend/",
+			"",
+			"entree",
+			"Entree",
+			"Calendrier",
+			"",
+			"success",
+			"#ed1877",
+			"wp_enqueue_script",
+			"'http://www.allodriver.fr/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "coursesencoloc.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"header.ol",
+				"www\\wp-content\\themes\\allodriver-bones\\header.old.php"
+			],
+			[
+				"h",
+				"www\\wp-content\\themes\\twentyfourteen\\header.php"
+			],
+			[
+				"header",
+				"www\\wp-content\\themes\\allodriver-bones\\header.php"
+			],
+			[
+				"inscri",
+				"placeapp\\workbench\\idmkr\\placeo\\themes\\frontend\\placeo\\packages\\idmkr\\placeo\\views\\pages\\inscription\\inscription-step-1.blade.php"
+			],
+			[
+				"inscripti",
+				"public_html\\themes\\frontend\\placeo\\extensions\\idmkr\\placeo\\views\\pages\\inscription\\inscription-step-1.blade.php"
+			],
+			[
+				"index.blade",
+				"public_html\\themes\\admin\\fgk\\extensions\\platform\\admin\\views\\index.blade.php"
+			],
+			[
+				"sftp",
+				"sftp-config.json"
+			],
+			[
+				"appl",
+				"fg-admin\\core\\Application.php"
+			],
+			[
+				"boot",
+				"fg-admin\\application\\Bootstrap.php"
+			],
+			[
+				"home",
+				"fg-admin\\application\\content\\pages\\home.php"
+			],
+			[
+				"comm",
+				"common.js"
+			],
+			[
+				"export",
+				"httpdocs\\fg-admin\\application\\content\\myadmin\\export.php"
+			],
+			[
+				"depot",
+				"app\\views\\frontend\\pages\\depot-devis.blade.php"
+			],
+			[
+				"app",
+				"app\\config\\app.php"
+			],
+			[
+				"routes",
+				"app\\routes.php"
+			],
+			[
+				"recap",
+				"app\\views\\frontend\\pages\\mon-espace\\parts\\recap-brief.blade.php"
+			],
+			[
+				"briefs",
+				"app\\views\\frontend\\pages\\mon-espace\\briefs.blade.php"
+			],
+			[
+				"bri",
+				"app\\views\\frontend\\pages\\mon-espace\\brief.blade.php"
+			],
+			[
+				"brie",
+				"httpdocs\\fg-admin\\application\\content\\myadmin\\briefs.php"
+			],
+			[
+				"user",
+				"app\\controllers\\UserController.php"
+			],
+			[
+				"brief",
+				"httpdocs\\fg-admin\\application\\models\\Briefs.php"
+			],
+			[
+				"depose",
+				"app\\views\\frontend\\pages\\depot-devis.blade.php"
+			],
+			[
+				"calen",
+				"app\\models\\Calendrier.php"
+			],
+			[
+				"calendri",
+				"httpdocs\\fg-admin\\application\\content\\myadmin\\calendrier.php"
+			],
+			[
+				"front",
+				"httpdocs\\sass\\front.scss"
+			],
+			[
+				"layo",
+				"app\\views\\frontend\\layout.blade.php"
+			],
+			[
+				"rou",
+				"app\\routes.php"
+			],
+			[
+				"single",
+				"app\\views\\frontend\\pages\\news-single.blade.php"
+			],
+			[
+				"temoig",
+				"app\\views\\frontend\\pages\\temoignages.blade.php"
+			],
+			[
+				"route",
+				"app\\routes.php"
+			],
+			[
+				"layou",
+				"app\\views\\frontend\\layout.blade.php"
+			],
+			[
+				"demande",
+				"app\\views\\emails\\brief\\demande-devis.blade.php"
+			],
+			[
+				"brief.bl",
+				"app\\views\\frontend\\pages\\mon-espace\\brief.blade.php"
+			],
+			[
+				"resul",
+				"app\\views\\frontend\\pages\\mon-espace\\resultats.blade.php"
+			],
+			[
+				"mon-",
+				"app\\views\\frontend\\pages\\mon-espace.blade.php"
+			],
+			[
+				"fiche",
+				"app\\views\\etablissement\\parts\\fiche-lieu.blade.php"
+			],
+			[
+				"",
+				"app\\controllers\\RemindersController.php"
+			],
+			[
+				"login",
+				"app\\views\\frontend\\pages\\login.blade.php"
+			],
+			[
+				"remin",
+				"app\\controllers\\RemindersController.php"
+			],
+			[
+				"userco",
+				"app\\controllers\\UserController.php"
+			],
+			[
+				"mdp-ou",
+				"app\\views\\frontend\\pages\\mdp-oublie.blade.php"
+			],
+			[
+				"mon-e",
+				"app\\views\\frontend\\pages\\mon-espace.blade.php"
+			],
+			[
+				"boite",
+				"app\\views\\frontend\\pages\\boite-a-outils.blade.php"
+			],
+			[
+				"layout",
+				"app\\views\\annonceur\\layout.blade.php"
+			],
+			[
+				"anal",
+				"app\\views\\parts\\analytics.blade.php"
+			],
+			[
+				"actus",
+				"httpdocs\\fg-admin\\application\\models\\Actus.php"
+			],
+			[
+				"sqlfu",
+				"httpdocs\\helpers\\SQLFunctions.php"
+			],
+			[
+				"main",
+				"httpdocs\\js\\main.js"
+			],
+			[
+				"medoo",
+				"httpdocs\\fg-admin\\application\\classes\\Medoo.php"
+			],
+			[
+				"init-",
+				"httpdocs\\fg-admin\\application\\content\\init-myadmin.php"
+			],
+			[
+				"filter",
+				"app\\filters.php"
+			],
+			[
+				"etabl",
+				"app\\models\\Etablissement.php"
+			],
+			[
+				"result",
+				"app\\views\\frontend\\pages\\mon-espace\\resultats.blade.php"
+			],
+			[
+				"calendr",
+				"app\\views\\frontend\\pages\\calendrier.blade.php"
+			],
+			[
+				"back",
+				"httpdocs\\backup.php"
+			],
+			[
+				"eta",
+				"httpdocs\\Front_end_init\\etablissement.funcs.php"
+			],
+			[
+				"hybri",
+				"app\\hybridSettings.php"
+			],
+			[
+				"infos",
+				"app\\views\\annonceur\\pages\\infos-pros.blade.php"
+			],
+			[
+				"validationeng",
+				"httpdocs\\js\\validationEngine\\jquery.validationEngine.js"
+			],
+			[
+				"groo",
+				"app\\views\\dev\\pages\\groom-service.blade.php"
+			],
+			[
+				"fro",
+				"httpdocs\\sass\\front.scss"
+			],
+			[
+				"fron",
+				"httpdocs\\sass\\front.scss"
+			],
+			[
+				"cal",
+				"httpdocs\\fg-admin\\application\\models\\Calendrier.php"
+			],
+			[
+				"actu",
+				"httpdocs\\fg-admin\\application\\models\\Actus.php"
+			],
+			[
+				"aside",
+				"app\\views\\dev\\parts\\aside.blade.php"
+			],
+			[
+				"news",
+				"app\\views\\dev\\pages\\news-single.blade.php"
+			],
+			[
+				"actuco",
+				"app\\controllers\\ActuController.php"
+			],
+			[
+				"actus.",
+				"httpdocs\\fg-admin\\application\\content\\myadmin\\actus.php"
+			],
+			[
+				"styles",
+				"httpdocs\\sass\\styles.scss"
+			],
+			[
+				"n",
+				"app\\models\\Newsletter.php"
+			],
+			[
+				"non-dis",
+				"D:\\Boulot\\Sites\\event boutik\\event-boutik\\app\\views\\emails\\brief\\non-disponible"
+			],
+			[
+				"devis",
+				"app\\views\\emails\\brief\\devis-depose.blade.php"
+			],
+			[
+				"sele",
+				"app\\models\\Selection.php"
+			],
+			[
+				"lay",
+				"app\\views\\dev\\layout.blade.php"
+			],
+			[
+				"archi",
+				"app\\views\\dev\\pages\\mon-espace\\archives.blade.php"
+			],
+			[
+				"sel",
+				"app\\models\\Selection.php"
+			],
+			[
+				"deot-",
+				"app\\views\\dev\\pages\\depot-devis.blade.php"
+			],
+			[
+				"mixi",
+				"httpdocs\\sass\\mixins.scss"
+			],
+			[
+				"briefco",
+				"app\\controllers\\BriefController.php"
+			],
+			[
+				"annonceu",
+				"httpdocs\\fg-admin\\application\\models\\Annonceurs.php"
+			],
+			[
+				"main.",
+				"httpdocs\\js\\main.js"
+			],
+			[
+				"layot",
+				"app\\views\\annonceur\\layout.blade.php"
+			],
+			[
+				"index",
+				"httpdocs\\fg-admin\\application\\theme\\default\\index.php"
+			],
+			[
+				"hybr",
+				"app\\hybridSettings.php"
+			],
+			[
+				"archiv",
+				"app\\views\\dev\\pages\\mon-espace\\archives.blade.php"
+			],
+			[
+				".funcs",
+				"httpdocs\\Front_end_init\\etablissement.funcs.php"
+			],
+			[
+				"fiche_",
+				"httpdocs\\sass\\fiche_lieu.scss"
+			],
+			[
+				".scss",
+				"httpdocs\\sass\\main.scss"
+			],
+			[
+				"fiche-l",
+				"app\\views\\etablissement\\parts\\fiche-lieu.blade.php"
+			],
+			[
+				"usercontr",
+				"app\\controllers\\UserController.php"
+			],
+			[
+				"mon-es",
+				"app\\views\\dev\\pages\\mon-espace.blade.php"
+			],
+			[
+				"usercon",
+				"app\\controllers\\UserController.php"
+			],
+			[
+				"use",
+				"app\\models\\User.php"
+			],
+			[
+				"asi",
+				"app\\views\\dev\\parts\\aside.blade.php"
+			],
+			[
+				"logi",
+				"app\\views\\annonceur\\pages\\login.blade.php"
+			],
+			[
+				"fronte",
+				"httpdocs\\fg-admin\\frontend.php"
+			],
+			[
+				".func",
+				"httpdocs\\Front_end_init\\etablissement.funcs.php"
+			],
+			[
+				"home.bl",
+				"app\\views\\dev\\pages\\home.blade.php"
+			],
+			[
+				".data",
+				"httpdocs\\Front_end_init\\etablissement.data.php"
+			],
+			[
+				"lieu.",
+				"app\\views\\etablissement\\parts\\fiche-lieu.blade.php"
+			],
+			[
+				"resultat",
+				"app\\views\\dev\\pages\\mon-espace\\resultats.blade.php"
+			],
+			[
+				"briefcon",
+				"app\\controllers\\BriefController.php"
+			],
+			[
+				"previ",
+				"app\\views\\annonceur\\pages\\previsualisation.blade.php"
+			],
+			[
+				"etabliss",
+				"httpdocs\\js\\Etablissement.class.js"
+			],
+			[
+				"depo",
+				"app\\views\\dev\\pages\\depot-devis.blade.php"
+			],
+			[
+				"selec",
+				"app\\models\\Selection.php"
+			],
+			[
+				"selecti",
+				"app\\models\\Selection.php"
+			],
+			[
+				"font.s",
+				"httpdocs\\sass\\front.scss"
+			],
+			[
+				"etabli",
+				"httpdocs\\js\\Etablissement.class.js"
+			],
+			[
+				"l-e",
+				"app\\views\\annonceur\\pages\\l-etablissement.blade.php"
+			],
+			[
+				".class.js",
+				"httpdocs\\js\\Etablissement.class.js"
+			],
+			[
+				"fiche-lie",
+				"app\\views\\etablissement\\parts\\fiche-lieu.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 155.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

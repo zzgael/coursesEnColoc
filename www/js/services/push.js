@@ -38,11 +38,11 @@ app.service('PushService', ['$q', '$rootScope', '$ionicPlatform', '$cordovaPush'
 			  }, function(err) {
 				  $rootScope.$broadcast('device_id_received', {data : null});
 			  });
-			}catch(err){
-				Logger.log(err);
-				$rootScope.$broadcast('device_id_received', {data : null});
-			}
-		  return deferred.promise;
+		}catch(err){
+			Logger.log(err);
+			$rootScope.$broadcast('device_id_received', {data : null});
+		}
+		return deferred.promise;
 	};
     this.onNotification = function (event) {
     	$ionicPlatform.is("android") ? this.onNotificationGCM(event) : this.onNotificationAPN(event); 

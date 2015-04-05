@@ -2,10 +2,11 @@ var app = angular.module('Shopencoloc',
   ['ionic', 'Shopencoloc.services', 'Shopencoloc.controllers','jmdobry.angular-cache', 'ngCordova'])
 .run(function ($q, $http, $rootScope, $location, Logger, config, $ionicPlatform, $ionicPopup, $ionicLoading, $ionicSideMenuDelegate, $ionicScrollDelegate, $window, $timeout, PushService) {
 
+      
 
     //Push notification - initialize device id 
     $ionicPlatform.ready(function () {
-      alert(PushService.getDeviceId());
+      //alert('test :'+PushService.getDeviceId());
     });
 
     $rootScope.$on("$locationChangeStart", function (event, next, current) {
